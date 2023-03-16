@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-border{
+    background-color: #394CFE;
+
+}
+.login{
+    border: #394CFE 1px solid;
+}
+.login{
+    color: #394CFE;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.contact{
+    margin: 0px 20px;
+}
+
+.phone_bg{
+    position: absolute;
+    z-index: -1;
+    width: 35%;
+}
+.phone{
+    width: 80%;
+}
+
+.left_main h1{
+    font-weight: bold;
+    width: 80%;
+}
+
+.left_main p{
+    width: 65%;
+}
+
+.schedule{
+    color: #394CFE;
+}
+.started_btn{
+    background-color: #394CFE;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.com{
+  
+    padding: 100px;
+}
+
+.reminder{
+    /* width: 70%; */
+}
+
+.middle_main{
+    margin-top:150px;
+}
+
+
+
+.third_main, .fourth_main{
+    margin-top: 150px;
+}
+
+.fourth_main{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.upload{
+    width: 100%;
+}
+
+
+.multiple_rem{
+    width: 100%;
+
+}
+.content{
+    margin: 0px 30px;
+    padding: 20px;
+    background-color: #F9F9F9;
+}
+.content .img1{
+    
+}
+.content .img2{
+    width: 85%;
+    height: 100%;
+}
+.content p{
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+.profile1{
+    background-color: #F9F9F9;
+    margin: 30px 0px
+}
+
+.profile1_cont,.profile2_cont {
+    font-size: 15px;
+}
+
+.profile1_cont h6{
+    font-weight: bold;
+}
+
+.profile_img, .profile2_img{
+    width: 100%;
+}
+
+
+.contents{
+    margin: 0px 5x;
+    padding: 10px;
+    background-color: #F9F9F9;
+}
+
+.profile2_cont{
+    padding-right: 150px;
+}
+
+.download{
+    background-color: #394CFE;
+    margin: 150px auto;
+    padding: 100px;
+}
+
+.footer{
+    background-color: #0B0D17;
+    padding: 50px 100px;
+    /* width: 100%; */
+    margin: 0px;
+}
+
+@media screen and (max-width:992px){
+.nav-link{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.left_main h1{
+    width: 100%;
+}
+
+.left_main p{
+    width: 100%;
+}
+
+.phone_bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.phone{
+    width: 100%;
+}
+
+.account{
+    margin-top: 10px;
+}
+
+.login{
+    margin: 0px;
+}
+
+.thirdleft_main{
+    order: 2;
+}
+
+.thirdright_main{
+    order: 1;
+}
+
+.content p{
+    margin-right: 0px;
+    font-size: 15px;
+}
+.content .img1{
+    width: 75%;
+}
+.content .img2{
+    width: 100%;
+    height: 100%;
+}
+
+.profile1{
+    background-color: #F9F9F9;
+    margin: 0px;
+}
+
+.footer{
+    background-color: #0B0D17;
+    padding: 30px 20px;
+    /* width: 100%; */
+    margin: 0px;
+}
+
+.guidelines{
+    white-space: nowrap;
+}
+
+.company p {
+    font-size: 12px;
+}
+
+.support p {
+    font-size: 12px;
+}
+
+.legal p
+{
+    font-size: 12px;
+}
+
+.one{
+order:1
+}
+
+.five{
+order: 5;
+}
+
+.two{
+order: 2;
+}
+
+.three{
+order: 3;
+}
+ 
+.four{
+order: 4;
+}
+}
